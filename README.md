@@ -3,20 +3,22 @@ Usage
 ---
 
 ```
-
-./sastantua n
+git clone https://github.com/HiIAmAdrian/Sastantua.git
+cd Sastantua
+gcc sastantua.c
+./a.out n
 ```
 
 Examples
 ---
 ```
-$ ./sastantua 1
+$ ./a.out 1
   /*\
  /***\
 /**|**\
 ```
 ```
-$ ./sastantua 3
+$ ./a.out 3
                /*\
               /***\
              /*****\
@@ -32,7 +34,7 @@ $ ./sastantua 3
 ```
 
 ```
-$ ./sastantua 5
+$ ./a.out 5
                                   /*\
                                  /***\
                                 /*****\
